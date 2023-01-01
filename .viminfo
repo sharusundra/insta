@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1672557535,,"wq!"
+|2,0,1672557727,,"wq!"
 :wq1
 |2,0,1672557490,,"wq1"
 
@@ -27,28 +27,47 @@
 # Registers:
 
 # File marks:
-'0  2  4  ~/vanitha
-|4,48,2,4,1672557535,"~/vanitha"
-'1  1  1  ~/vanitha
-|4,49,1,1,1672557490,"~/vanitha"
+'0  1  2  ~/test
+|4,48,1,2,1672557727,"~/test"
+'1  2  4  ~/vanitha
+|4,49,2,4,1672557535,"~/vanitha"
 '2  1  1  ~/vanitha
 |4,50,1,1,1672557490,"~/vanitha"
-'3  1  2  ~/vanitha
-|4,51,1,2,1672557467,"~/vanitha"
+'3  1  1  ~/vanitha
+|4,51,1,1,1672557490,"~/vanitha"
 '4  1  2  ~/vanitha
 |4,52,1,2,1672557467,"~/vanitha"
+'5  1  2  ~/vanitha
+|4,53,1,2,1672557467,"~/vanitha"
 
 # Jumplist (newest first):
+-'  1  2  ~/test
+|4,39,1,2,1672557727,"~/test"
+-'  2  4  ~/vanitha
+|4,39,2,4,1672557535,"~/vanitha"
 -'  2  4  ~/vanitha
 |4,39,2,4,1672557535,"~/vanitha"
 -'  1  1  ~/vanitha
 |4,39,1,1,1672557526,"~/vanitha"
 -'  1  1  ~/vanitha
+|4,39,1,1,1672557526,"~/vanitha"
+-'  1  1  ~/vanitha
 |4,39,1,1,1672557490,"~/vanitha"
+-'  1  1  ~/vanitha
+|4,39,1,1,1672557490,"~/vanitha"
+-'  1  2  ~/vanitha
+|4,39,1,2,1672557467,"~/vanitha"
 -'  1  2  ~/vanitha
 |4,39,1,2,1672557467,"~/vanitha"
 
 # History of marks within files (newest to oldest):
+
+> ~/test
+	*	1672557720	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
 
 > ~/vanitha
 	*	1672557533	0
